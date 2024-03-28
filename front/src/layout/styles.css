@@ -1,0 +1,569 @@
+* {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .background-container {
+    background-image: url('../photos/backg.jpg'); /* ใช้ background-image เพื่อกำหนดรูปภาพเป็นพื้นหลัง */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh; /* ให้ความสูงเต็มหน้าจอ */
+  }
+
+  .background-container1 {
+    background-image: url('../photos/backg.jpg'); /* ใช้ background-image เพื่อกำหนดรูปภาพเป็นพื้นหลัง */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh; /* ให้ความสูงเต็มหน้าจอ */
+  }
+
+
+  
+  /* ตกแต่งหน้า login */
+  .login-logo {
+    background-image: url('../photos/login.jpg');
+    width: 170px; 
+    height: 170px; 
+    background-size: cover; 
+    background-position: center; 
+    margin: 0 auto; 
+ 
+}
+
+
+
+.logo {
+    width: 90px;
+    height: 90px; 
+    background-image: url('../photos/logo.png');
+    background-size: cover;
+    margin-bottom: 400px; 
+    margin-left: 10px; 
+    position: fixed; 
+    top: 15px;
+    left: 15px; 
+}
+
+
+
+.language-switch button {
+    color: rgb(235, 231, 231);
+    opacity: 0.7; 
+    transition: opacity 0.3s; 
+  }
+  
+  .language-switch button:hover {
+    opacity: 20; 
+  }
+  
+  .language-switch button span {
+
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+  
+
+.login {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: rgb(5, 5, 5);
+    font-weight: bold;
+    text-align: center; 
+    margin: 0 auto; 
+    
+}
+
+
+  .login-border {
+    background-color: rgba(255, 255, 255, 0.804);
+    border: 1px solid #ccc; 
+    padding: 1rem; 
+    min-width: 500px;
+    
+}
+
+
+
+  /* แบบฟอร์ม */
+  .form-container {
+    width: 100%;
+    margin-top: 1px;
+    
+}
+
+.form-control {
+    width: 60%;
+    margin: 0 auto; 
+    margin-top: 20px;
+}
+  .input {
+    width: 100%;
+  }
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-radio {
+  margin-left: 30px;
+ 
+}
+.form-actions {
+    display: flex;
+    justify-content: center; /* จัดให้เป็นกึ่งกลางในแนวนอน */
+    margin-top: 20px;
+  }
+  .btn-success {
+    color: white; /* เปลี่ยนสีข้อความเป็นสีขาว */
+  }
+
+
+  .form-control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .register-link {
+    margin-left: 278px;
+   
+  }
+  
+  .register-link a {
+    color: #2f8ae0;
+    text-decoration: none;
+    font-size: 12.5px;
+    font-weight: bold;
+    position: fixed;
+  }
+  
+  .register-link a:hover {
+    text-decoration: underline;
+  }
+  
+
+  /* หน้า register */
+
+  
+  .login-border1 {
+    background-color: rgba(255, 255, 255, 0.804);
+    border: 1px solid #ccc;
+    margin: 0 auto; 
+    width: 650px; 
+    place-items: center; 
+}
+
+.center {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: rgb(5, 5, 5);
+    font-weight: bold;
+    text-align: center; 
+    margin: 0 auto; 
+  }
+  .register-link1 {
+    margin-left: 430px;
+   
+  }
+  
+  .register-link1 a {
+    color: #2f8ae0;
+    text-decoration: none;
+    font-size: 12.5px;
+    font-weight: bold;
+    position: fixed;
+  }
+  
+  .register-link1 a:hover {
+    text-decoration: underline;
+  }
+  .link3 {
+    margin-right: 430px;
+   
+  }
+  
+  .link3 a {
+    color: #e60303;
+    text-decoration: none;
+    font-size: 12.5px;
+    font-weight: bold;
+    position: fixed;
+  }
+  
+  .link3 a:hover {
+    text-decoration: underline;
+  }
+
+  .register-link2 {
+    margin-left: 250px;
+   
+  }
+  
+  .register-link2 a {
+    color: #2f8ae0;
+    text-decoration: none;
+    font-size: 12.5px;
+    font-weight: bold;
+    position: fixed;
+  }
+  
+  .register-link2 a:hover {
+    text-decoration: underline;
+  }
+
+  /* ตกแต่งหน้า guest */
+  /* .background-containerG {
+    background-image: url('../photos/guest.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh; 
+  } */
+
+  /* .background-containerG {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.background-containerG::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: url('../video/video.mp4') no-repeat center center;
+    background-size: cover;
+    -webkit-filter: blur(10px); 
+    filter: blur(10px); 
+} */
+  
+  .logoG {
+    width: 75px;
+    height: 75px; 
+    background-image: url('../photos/logo.png');
+    background-size: cover;
+    margin-bottom: 400px; 
+    margin-left: 10px; 
+    position: fixed; 
+    top: -4.5px;
+    left: 15px; 
+}
+
+.logoG1 {
+  width: 130px;
+  height: 130px; 
+  background-image: url('../photos/logo.png');
+  background-size: cover;
+  position: relative; 
+  top: -180px; /* ปรับตำแหน่งขึ้นข้างบน */
+  left: 0; 
+  z-index: 9999; 
+}
+
+#address_and_payment {
+  background-color: rgba(242, 242, 242, 0.899); /* กำหนดสีพื้นหลังโดยใช้ RGBA เพื่อกำหนดค่า alpha */
+  box-shadow: 3px 10px 40px rgb(50, 7, 7);
+  margin-left: 200px;
+}
+
+.modal-box {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงาด้านบน */
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.qr-code {
+    margin: auto;
+    display: block;
+    max-width: 100%; /* ให้รูปไม่เกินขอบโมเดล */
+}
+
+.modal-box button {
+    margin-top: 10px;
+    border: none;
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+.background-containerP {
+  background-image: url('../photos/lllllllll.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh; 
+}
+
+
+
+.text-animation {
+  animation-name: slide-in;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+  /* ตกแต่งหน้า about us */
+  .background-containerA {
+    background-image: url('../photos/about.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh; 
+  }
+
+  .custom-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; 
+  }
+  
+  .custom-image {
+    width: 350px; /* ปรับขนาดความกว้างของรูปภาพ */
+    height: 200px; /* ปรับขนาดความสูงของรูปภาพ */
+    background-size: cover; 
+    animation: slideDown 1s ease; 
+    animation-fill-mode: forwards; 
+    opacity: 0; 
+  }
+  
+  
+  @keyframes slideDown {
+    from {
+      transform: translateY(-50px); 
+      opacity: 0; 
+    }
+    to {
+      transform: translateY(0); 
+      opacity: 1; 
+    }
+  }
+  
+  .image1 {
+    background-image: url('../photos/image1.jpg');
+  }
+  
+  .image2 {
+    background-image: url('../photos/image2.jpg');
+  }
+  
+  .image3 {
+    background-image: url('../photos/image3.jpg');
+  }
+  
+  /* ตกแต่งหน้า contact */
+  .background-containerC {
+    background-image: url('../photos/contact.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh; 
+  }
+
+  /* ตกแต่งหน้า Menu */
+  /* .background-containerMenu {
+    position: fixed;
+    background-image: url('../photos/menu1.jpg');
+    background-size: auto 70%;
+    background-repeat: no-repeat; 
+    background-position: center;
+    animation: slideshow 6s infinite;
+    
+    background-position-y: 50%;
+}
+
+@keyframes slideshow {
+  0%, 100% {
+      background-image: url('../photos/menu1.jpg');
+  }
+  50% {
+      background-image: url('../photos/menu2.jpg'); 
+  }
+} */
+
+.background-containerMenu {
+  width: 100%;
+  position: relative;
+  background-image: url('../photos/menu1.jpg');
+  background-size: 100% auto;
+  animation: slideshow 6s infinite;
+  background-blend-mode: normal;
+  background-repeat: no-repeat; 
+  transform: translateY(8%);
+}
+
+
+@keyframes slideshow {
+0%, 0% {
+    background-image: url('../photos/menu1.jpg');
+}
+50% {
+    background-image: url('../photos/menu2.jpg'); 
+}
+}
+
+.botIcon {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  position: relative; 
+}
+.btn-error {
+  width: 10%;
+  position: relative;
+  top: -5vw; 
+}
+
+.background-containerC {
+  background-image: url('../photos/contact.jpg'); 
+  background-position-y: 35%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh; 
+}
+
+
+.background-containerMenu2 {
+  background-image: url('../photos/menu3.jpg'); 
+  background-size: cover;
+  background-position: center; 
+  background-attachment: fixed;
+  width: 100%;
+  position: relative;
+  top: -2vw; 
+}
+
+
+.searchBox {
+  position: absolute;
+  top: 20px;
+  left: 20px; 
+}
+
+.searchBox input {
+  padding: 5px 15px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  outline: none; 
+}
+
+.searchBox button {
+  background-color: transparent;
+  border: none; 
+  outline: none; 
+  cursor: pointer;
+  margin-right: -100px;
+}
+
+/* 
+.searchBox button svg {
+  color: #555; 
+}
+
+.searchBox input {
+  padding-right: 30px; 
+ 
+} */
+
+
+
+
+
+.searchBox1 {
+  position: absolute;
+  top: 20px;
+  left: 20px; 
+}
+
+.searchBox1 input {
+  padding: 8px 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  outline: none; 
+  
+}
+
+.searchBox1 button {
+  background-color: transparent;
+  border: none; 
+  outline: none; 
+  cursor: pointer;
+  margin-right: -30px;
+}
+
+
+.searchBox1 button svg {
+  color: #555; 
+  width: 50px; 
+  height: 30px; 
+}
+
+.searchBox1 input {
+  padding-right: 30px; 
+ 
+}
+.searchButton {
+  position: absolute;
+  top: 50%;
+  right: 26px; 
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.cards-container {
+  margin-bottom: -80px; 
+}
+
+/* เข้าสู๋ระบบ สร้างบช */
+.green-button {
+  background-color: #2ad230; 
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight:800;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+/* CSS เพื่อตำแหน่งบอททอนกึ่งกลาง */
+.boton-text {
+  display: flex;
+  justify-content: center;
+}
